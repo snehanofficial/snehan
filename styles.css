@@ -127,7 +127,7 @@ main{
 
 .leftside h3:after{
 	content: "";
-	width: 430px;
+	width: 415px;
 	height: 3px;
 	position: absolute;
 	top: 43%;
