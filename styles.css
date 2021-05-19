@@ -186,6 +186,15 @@ button:active{
  transform:scale(1.1);
 }
 
+.mobileShow {display: none;}
+
+  /* Smartphone Portrait and Landscape */
+  @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px){ 
+      .mobileShow {display: inline;}
+  }
+
 footer{
 	background-image: #C5C5C5;
 	display: absolute;
